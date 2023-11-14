@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="icon" href="./images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- aside start -->
+    <aside class="close">
+      <a href="./index.html" class="aside-logo">
+        <img src="./images/logo.png" alt="logo" class="logo" />
+        <h2 class="aside-title">Dashboard</h2>
+      </a>
+      <ul class="aside-list">
+        <li class="aside-item">
+          <a href="./index.html" class="aside-link">
+            <i class="fa-solid fa-light fa-chart-pie aside-i"></i>
+            <h2 class="aside-list-title">Overview</h2>
+          </a>
+        </li>
+        <li class="aside-item">
+          <a href="./ticket.html" class="aside-link">
+            <i class="fa-solid fa-ticket aside-i ticket"></i>
+            <h2 class="aside-list-title">Tickets</h2>
+          </a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">
+            <i class="fa-solid fa-lightbulb aside-i"></i>
+            <h2 class="aside-list-title">Ideas</h2>
+          </a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">
+            <i class="fa-solid fa-users aside-i"></i>
+            <h2 class="aside-list-title">Contacts</h2>
+          </a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">
+            <i class="fa-solid fa-user-tie aside-i"></i>
+            <h2 class="aside-list-title">Agents</h2>
+          </a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">
+            <i class="fa-solid fa-book aside-i"></i>
+            <h2 class="aside-list-title">Articles</h2>
+          </a>
+        </li>
+      </ul>
+      <div class="aside-buttons">
+        <button class="aside-button">
+          <i class="fa-solid fa-circle-half-stroke aside-button-i"></i>
+          <h2 class="aside-button-title switch">Change mode</h2>
+        </button>
+        <button class="aside-button">
+          <i class="fa-solid fa-right-from-bracket aside-button-i"></i>
+          <h2 class="aside-button-title">Logout</h2>
+        </button>
+      </div>
+    </aside>
+    <!-- aside end -->
+
+    <!-- header start -->
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="nav-info">
+            <i class="fa-solid fa-bars hamburger"></i>
+            <div class="nav-right">
+              <h2 class="nav-title">Jones Ferdinand</h2>
+              <img src="./images/nav-img.png" alt="nav-img" class="nav-img" />
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="header-info">
+        <div class="container">
+          <div class="header-bottom">
+            <h2 class="header-title">Tickets</h2>
+            <div class="header-buttons">
+              <button class="header-btn">
+                <i class="fa-solid fa-ellipsis ellipsis"></i>
+              </button>
+              <button class="header-btn btn2">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main end -->
+    <main class="main">
+        <div class="container">
+            <table>
+            <h2 class="title">All tickets</h2>
+            <thead>
+                <tr>
+                    <th>Ticket details</th>
+                    <th>Customer name</th>
+                    <th>Date</th>
+                    <th>Priority</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="" alt="" class="td-img">
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

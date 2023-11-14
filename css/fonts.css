@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Mulish700";
+  src: url(../fonts/Mulish/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: "Mulish400";
+  src: url(../fonts/Mulish/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato700";
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato400";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
